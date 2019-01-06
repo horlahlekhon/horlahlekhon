@@ -1,6 +1,9 @@
 ---
-layout: post
+layout: writing_post
+type: post
 title:  "Welcome to Jekyll!"
+author : Lekan Adebari JNR
+subtitle: "now we are here!"
 date:   2018-12-31 14:55:19 +0100
 categories: jekyll update
 ---
