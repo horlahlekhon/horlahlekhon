@@ -17,7 +17,7 @@ title: Lekan - Adebari
 email: horlahlekhon@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   The curiousity of Software development and mediocrity of trying to be a writer.....makes me think i am one
-baseurl: "/horlahlekhon/" # the subpath of your site, e.g. /blog
+baseurl: "/horlahlekhon" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: 
 github_username:  horlahlekhon
