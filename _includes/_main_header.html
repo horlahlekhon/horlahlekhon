@@ -5,30 +5,20 @@
         <div class="topbar-left">
           <button class="topbar-toggler">&#9776;</button>
           <a class="topbar-brand" href="index.html">
-            <img class="logo-default" src="{{site.baseurl}}/assets/img/logo.png" alt="logo">
-            <img class="logo-inverse" src="{{site.baseurl}}/assets/img/logo-light.png" alt="logo">
+            {% comment %} <img class="logo-default" src="{{site.baseurl}}/assets/img/logo.png" alt="logo"> {% endcomment %}
+            {% comment %} <img class="logo-inverse" src="{{site.baseurl}}/assets/img/logo-light.png" alt="logo"> {% endcomment %}
+            <h4 class="bg-transparent text-lighter">Lekan Adebari</h4>
           </a>
         </div>
         <div class="topbar-right">
           <ul class="topbar-nav nav">
             <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
             <li class="nav-item">
-              <a class="nav-link" href="/writing/">Writing <i class="fa fa-caret-down"></i></a>
-              <div class="nav-submenu">You can set front matter in layouts, the only difference is when you’re using in Liquid, you need to use the 
-                <a class="nav-link" href="#">Poetry</a>
-                <a class="nav-link" href="#">Rants</a>
-                <a class="nav-link" href="#">Essays</a>
-              </div>
+              <a class="nav-link" href="/writing/">Writing</a>
             </li>
 
             <li class="nav-item">
-              <a class="nav-link" href="/tech/">Tech<i class="fa fa-caret-down"></i></a>
-              <div class="nav-submenu">
-                <a class="nav-link" href="header-color.html"></a>
-                <a class="nav-link" href="header-gradient.html">Gradient</a>
-                <a class="nav-link" href="header-particle.html">Particle</a>
-                
-              </div>
+              <a class="nav-link" href="/tech/">Tech</i></a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="/about/">About</a>
@@ -39,9 +29,6 @@
       </div>
     </nav>
     <!-- END Topbar -->
-    {% if layout.type == "page" %}
       {%- include _page_pic_header.html -%}
-    {% else %}
-      {%- include _post_header.html -%}
-    {% endif %}
+    
     

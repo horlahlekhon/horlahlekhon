@@ -1,6 +1,5 @@
 ---
 layout: page_layout
-type: page
 title: "Technological Adventures"
 permalink: /tech/
 
@@ -11,10 +10,10 @@ permalink: /tech/
             <div class="row">
                 <div class="col-md-8 col-xl-9 py-90">
                     <div class="row gap-y">
-                    {%- for post in site.posts -%}
+                    {%- for post in site.categories.tech -%}
                         <div class="col-md-6">
                             <div class="card card-hover-shadow">
-                            <a href="#"><img class="card-img-top" src="assets/img/blog-1.jpg" alt="Card image cap"></a>
+                            <a href="#"><img class="card-img-top" src="{{site.baseurl}}/assets/img/blog-1.jpg" alt="Card image cap"></a>
                             <div class="card-block">
                                 <h4 class="card-title">{{post.title}}</h4>
                                 <p class="card-text">{{post.excerpt}}</p>

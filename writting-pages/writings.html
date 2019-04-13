@@ -1,8 +1,10 @@
 ---
-layout : page_layout
+layout: page_layout
 type: page
-title : "Literature"
-permalink : /writing/
+title: The Lazy Patriot
+pageSubHeader: 
+headerSnippet: '"wait! Its only an illusion; the die is never cast”'
+permalink: /writing/
 ---
 {% include _main_header.html %}
 <main class="main-content bg-gray">
@@ -10,10 +12,10 @@ permalink : /writing/
             <div class="row">
                 <div class="col-md-8 col-xl-9 py-90">
                     <div class="row gap-y">
-                    {%- for post in site.posts -%}
+                    {%- for post in site.categories.writting -%}
                         <div class="col-md-6">
                             <div class="card card-hover-shadow">
-                            <a href="#"><img class="card-img-top" src="assets/img/blog-1.jpg" alt="Card image cap"></a>
+                            <a href="#"><img class="card-img-top" src="{{site.baseurl}}/assets/img/posts_images/{{post.titleImage}}" alt="Card image cap"></a>
                             <div class="card-block">
                                 <h4 class="card-title">{{post.title}}</h4>
                                 <p class="card-text">{{post.excerpt}}</p>

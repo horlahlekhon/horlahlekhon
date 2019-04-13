@@ -1,14 +1,19 @@
 ---
 layout: page_layout
+
 ---
 
-{% include _main_header.html %}
+{% include _post_header.html %}
 
 <main class="main-content">
 
     <div class="section" id="section-content">
         <div class="container">
-            {{content}}
+          <div  class="row">
+            <div class="col-md-8 col-xl-9 py-90">
+              {{content}}
+          </div>
+          {%- include _related_posts.html -%}
         </div>
     </div>
 
@@ -18,7 +23,7 @@ layout: page_layout
       | Comments
       |‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒
       !-->
-      <div class="section bt-1 bg-grey">
+      {% comment %} <div class="section bt-1 bg-grey">
         <div class="container">
 
           <div class="row">
@@ -95,7 +100,7 @@ layout: page_layout
           </div>
 
         </div>
-      </div>
+      </div> {% endcomment %}
 
 
 

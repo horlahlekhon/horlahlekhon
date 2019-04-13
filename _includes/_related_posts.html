@@ -1,0 +1,31 @@
+ <div class="col-md-4 col-xl-3 hidden-sm-down">
+    <div class="sidebar">
+
+        <h6 class="sidebar-title">Search</h6>
+        <form class="input-group" target="#" method="GET">
+        <input type="text" class="form-control" placeholder="Search">
+        <span class="input-group-addon"><i class="ti-search"></i></span>
+        </form>
+
+        <hr>
+
+        <h6 class="sidebar-title">Related posts</h6>
+        {%- for item in site.related_posts -%}
+            <a class="media-thumb" href="{{item.url}}">
+            <img class="rounded" src="{{site.baseurl}}/assets/img/posts_images/{{item.titleImage}}">
+            <p class="media-body">{{item.excerpt | truncate: 30, '...' }}</p>
+            </a>
+        {%- endfor -%}
+        <hr>
+
+        <h6 class="sidebar-title">Tags</h6>
+        <div class="gap-multiline-items-1">
+        {%- for tag in site.tags -%}
+            <a class="badge badge-secondary" href="#">{{tag[0]}}</a>
+        {%- endfor -%}
+        </div>
+
+        <hr>
+
+    </div>
+</div>
