@@ -5,7 +5,7 @@ title:  "A Yòrùbá woman: sage amongst women"
 author : Lekan Adebari
 subtitle: "An Ensembre of Beauty"
 date:   2019-04-13 16:25:19 +0100
-categories: writting
+categories: writing
 titleImage: writting_images/yoruba-woman.jpg
 excerpt_separator: <!--more-->
 tags: [poetry]

@@ -5,7 +5,7 @@ title:  "Blank CrossRoad!"
 author : Lekan Adebari
 subtitle: "The eternal journey"
 date:   2019-04-13 15:15:19 +0100
-categories: writting
+categories: writing
 titleImage: writting_images/the-crossroad.jpg
 excerpt_separator: <!--more-->
 tags: [poetry]
