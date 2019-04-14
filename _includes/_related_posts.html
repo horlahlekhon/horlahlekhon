@@ -13,7 +13,7 @@
         {%- for item in site.related_posts -%}
             <a class="media-thumb" href="{{site.baseurl}}{{item.url}}">
             <img class="rounded" src="{{site.baseurl}}/assets/img/posts_images/{{item.titleImage}}">
-            <p class="media-body">{{item.excerpt | truncate: 30, '...' }}</p>
+            <p class="media-body">{{item.title | truncate: 30, '...' }}</p>
             </a>
         {%- endfor -%}
         <hr>

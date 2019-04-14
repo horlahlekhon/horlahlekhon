@@ -13,28 +13,50 @@ tags: [poetry]
 
 
 
-_On a nigh beneath the beach !_
+<p><em>On a nigh beneath the beach !</em></p>
 
-_On a rye beside the reach!_
+<br>
 
-_We waddle in game; our tail wiggle in sync!_
+<p><em>On a rye beside the reach!</em></p>
+
+<br>
+
+<p><em>We waddle in game; our tail wiggle in sync!</em></p>
 <!--more-->
-_My puddled beak picks the daunty oysters as , my dainty feather warp in cascade!_
+<br>
 
-_The kilt nudity of your voice makes me stand my off!_
+<p><em>My puddled beak picks the daunty oysters as , my dainty feather warp in cascade!</em></p>
 
-_I am a Robin and she is an Egret!_
+<br>
 
-_I fall in love with the long-beak of hers!_
+<p><em>The kilt nudity of your voice makes me stand my off!</em></p>
 
-_The crazy sonority of my noise! Raise the lazy hair on her nape!_
+<br>
 
-_My love Is over the ridge!_
+<p><em>I am a Robin and she is an Egret!</em></p>
 
-_On a 32volts my wing hang! The tension became high!_
+<br>
 
-_Sweet Egret cry a lagoon! My dream end in death!_
+<p><em>I fall in love with the long-beak of hers!</em></p>
 
-_But, lo! Sweet usurper of nature; I woke up as this!_
+<br>
+
+<p><em>The crazy sonority of my noise! Raise the lazy hair on her nape!</em></p>
+
+<br>
+
+<p><em>My love Is over the ridge!</em></p>
+
+<br>
+
+<p><em>On a 32volts my wing hang! The tension became high!</em></p>
+
+<br>
+
+<p><em>Sweet Egret cry a lagoon! My dream end in death!</em></p>
+
+<br>
+
+<p><em>But, lo! Sweet usurper of nature; I woke up as this!</em></p>
 
 **A NULL.....**

@@ -1,35 +1,32 @@
 ---
 layout: page_layout
 title: "Lekan  Adebari"
-permalink: /
 ---
 {% include _main_header.html %}
-    <!-- Main container -->
-<main class="main-content bg-gray">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-8 col-xl-9 py-90">
-                <div class="row gap-y">
-                {%- for post in site.posts -%}
-                    <div class="col-md-6">
-                        <div class="card card-hover-shadow">
-                        <a href="#"><img class="card-img-top" src="{{site.baseurl}}/assets/img/posts_images/{{post.titleImage}}" alt="Card image cap"></a>
-                        <div class="card-block">
-                            <h4 class="card-title">{{post.title}}</h4>
-                            <p class="card-text">{{post.excerpt | truncate: 60, '...' }}}}</p>
-                            <a class="fw-600 fs-12" href="{{site.baseurl}}{{post.url}}">Read more <i class="fa fa-chevron-right fs-9 pl-8"></i></a>
+ <main class="main-content bg-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-xl-9 py-90">
+                    <div class="row gap-y">
+                    {%- for post in site.posts -%}
+                        <div class="col-md-6">
+                            <div class="card card-hover-shadow">
+                            <a href="#"><img class="card-img-top" src="{{site.baseurl}}/assets/img/posts_images/{{post.titleImage}}" alt="Card image cap"></a>
+                            <div class="card-block">
+                                <h4 class="card-title">{{post.title}}</h4>
+                                <p class="card-text">{{post.excerpt}}</p>
+                                <a class="fw-600 fs-12" href="{{site.baseurl}}{{post.url}}">Read more <i class="fa fa-chevron-right fs-9 pl-8"></i></a>
+                            </div>
+                            </div>
                         </div>
-                        </div>
+                    {%- endfor -%}
                     </div>
-                {%- endfor -%}
+                    <nav class="flexbox mt-30">
+                        <a class="btn btn-white disabled"><i class="ti-arrow-left fs-9 mr-4"></i> Newer</a>
+                        <a class="btn btn-white" href="#">Older <i class="ti-arrow-right fs-9 ml-4"></i></a>
+                    </nav>
                 </div>
-                <nav class="flexbox mt-30">
-                    <a class="btn btn-white disabled"><i class="ti-arrow-left fs-9 mr-4"></i> Newer</a>
-                    <a class="btn btn-white" href="#">Older <i class="ti-arrow-right fs-9 ml-4"></i></a>
-                </nav>
+                {%- include _generic-sidebar.html -%}
             </div>
-            {%- include _generic-sidebar.html -%}
-        </div>
-    </div>       
-</main>
-    
+        </div>       
+    </main>

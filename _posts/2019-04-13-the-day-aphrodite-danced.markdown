@@ -14,6 +14,7 @@ titleImage: writting_images/the-day-aphrodite-danced.jpg
 <p><em>Sunny traverse on a river bank! My legs yet sours</em></p>
 <p><em>Sunscreens , battered , taciturn , body , wind laps</em></p>
 <p><em>Follicle swerves; undulates! Spine gently rusks!</em></p>
+<!--more-->
 <p><em>Golden rays on a sunny beach, the sun is yet to dusk!</em></p>
 
 <br>
