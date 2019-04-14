@@ -1,6 +1,5 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
 layout: home
+title:  "Home Sweet Home"
+headerSnippet: "Soon, we shall all understand; theere is so much bugs in softwares that poetry can solve"
 ---

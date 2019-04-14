@@ -1,6 +1,6 @@
 ---
 layout: page_layout
-title: "Lekan  Adebari JNR"
+title: "Lekan  Adebari"
 permalink: /
 ---
 {% include _main_header.html %}
@@ -16,7 +16,7 @@ permalink: /
                         <a href="#"><img class="card-img-top" src="{{site.baseurl}}/assets/img/posts_images/{{post.titleImage}}" alt="Card image cap"></a>
                         <div class="card-block">
                             <h4 class="card-title">{{post.title}}</h4>
-                            <p class="card-text">{{post.excerpt}}</p>
+                            <p class="card-text">{{post.excerpt | | truncate: 60, '...' }}}}</p>
                             <a class="fw-600 fs-12" href="{{site.baseurl}}{{post.url}}">Read more <i class="fa fa-chevron-right fs-9 pl-8"></i></a>
                         </div>
                         </div>
